@@ -10,5 +10,6 @@ router.get("/", (request: Request, response: Response) => {
 router.get("/primeira_questao", controller.primeiraQuestão);
 router.get("/segunda_questao", controller.segundaQuestão);
 router.get("/terceira_questao", controller.terceiraQuestão);
+router.get("/quarta_questao", controller.quartaQuestão);
 
 export { router };
